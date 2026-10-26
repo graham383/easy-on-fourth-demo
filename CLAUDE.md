@@ -1,7 +1,7 @@
 # Easy on Fourth (concept demo): project instructions
 
 Static site, no build step. Everything served lives in `public/` (`index.html` + `images/`).
-Hosting: Vercel project `easy-on-fourth-photos`, deployed from this GitHub repo's `main` branch.
+Hosting: Vercel project `graham383-easy-on-fourth-demo` (live at https://graham383-easy-on-fourth-demo.vercel.app), deployed from this GitHub repo's `main` branch. The older `easy-on-fourth-photos` project is a superseded low-res upload; do not deploy to it.
 
 ## Site structure
 - Pages: `index.html`, `menu.html`, `drinks.html`, `story.html`, `events.html`, `private-events.html`, `order.html`, `visit.html`. Shared `styles.css` and `site.js`; edit those, not per-page copies.
@@ -11,7 +11,7 @@ Hosting: Vercel project `easy-on-fourth-photos`, deployed from this GitHub repo'
 ## Deploying
 - Deploy ONLY by committing and pushing to `main` on GitHub. Vercel deploys automatically.
 - Never deploy via base64/text uploads (Vercel MCP `upload_file`/inline `create_deployment`) or any route that re-encodes images.
-- Do not create a new Vercel project or change the public URL (easy-on-fourth-photos-fc-f93a.vercel.app).
+- Do not create another Vercel project or change the public URL (graham383-easy-on-fourth-demo.vercel.app).
 - Never commit `.env`, tokens or credentials.
 
 ## Image quality rules (do not break)
