@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+*.pem
+*.key
+# vercel / node / build
+.vercel/
+node_modules/
+.next/
+dist/
+# os / editor / temp
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.idea/
+.vscode/
+# local test output
+*.png.tmp
+screenshots/
