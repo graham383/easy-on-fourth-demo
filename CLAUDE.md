@@ -3,6 +3,11 @@
 Static site, no build step. Everything served lives in `public/` (`index.html` + `images/`).
 Hosting: Vercel project `easy-on-fourth-photos`, deployed from this GitHub repo's `main` branch.
 
+## Site structure
+- Pages: `index.html`, `menu.html`, `drinks.html`, `story.html`, `events.html`, `private-events.html`, `order.html`, `visit.html`. Shared `styles.css` and `site.js`; edit those, not per-page copies.
+- Menu, drinks and events pages carry clearly labelled SAMPLE content. Do not present sample items, prices or event dates as real. Replace with the restaurant's real text when supplied.
+- Order and the restaurant's own events calendar link out to easyonfourth.ca. Nav changes must be made in every page's header.
+
 ## Deploying
 - Deploy ONLY by committing and pushing to `main` on GitHub. Vercel deploys automatically.
 - Never deploy via base64/text uploads (Vercel MCP `upload_file`/inline `create_deployment`) or any route that re-encodes images.
